@@ -1,4 +1,4 @@
-import { useState } from "react"
+
 import './App.css';
 import Greeting from './Greeting'
 import MediaCard from './MediaCard'
