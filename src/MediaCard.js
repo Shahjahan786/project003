@@ -5,7 +5,7 @@ function MediaCard(props){
     return <div>
         <h2>{props.title + " ( "+ count +" )" }</h2>
         <p>{props.body}</p>
-        <img alt = "Sample image" src= {props.imageUrl} width="200" height = "200"/>
+        <img alt = "Sample placeholder" src= {props.imageUrl} width="200" height = "200"/>
         <br/>
         <button onClick={() =>  setCount(++count) }>Update</button>
     </div>
