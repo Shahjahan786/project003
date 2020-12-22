@@ -1,8 +1,9 @@
 import { useState } from "react"
 
+
 function MediaCard(props){
     let [count, setCount]  =useState(1)
-    return <div>
+    return <div className="box">
         <h2>{props.title + " ( "+ count +" )" }</h2>
         <p>{props.body}</p>
         <img alt = "Sample placeholder" src= {props.imageUrl} width="200" height = "200"/>
