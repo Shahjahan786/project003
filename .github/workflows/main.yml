@@ -35,5 +35,5 @@ jobs:
         run: npm install -g surge
       
       - name: Depoyement
-        run: surge ./build shahhjahansamoon_project003.surg.sh --token {{secrets.SURGE_TOKEN}} 
+        run: surge ./build shahhjahansamoon_project003.surg.sh --token {{secrets.surge_token}} 
    
